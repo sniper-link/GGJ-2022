@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Interactor : MonoBehaviour
 {
-    public LayerMask interactableLayermask;
+    public LayerMask interactableLayermask = 8;
     Interactable interactable;
     public Image interactImage;
     public Sprite defaultIcon;
@@ -21,14 +21,15 @@ public class Interactor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 2, interactableLayermask))
+        if(Physics.Raycast(ray, out hit, 2))
         {
             if (hit.collider.GetComponent<Interactable>() != false)
             {
-                if (interactable.interactIcon != null || interactable.ID != hit.collider.GetComponent<Interactable>().ID)
+                if (interactable == null || interactable.ID != hit.collider.GetComponent<Interactable>().ID)
                 {
-                    interactImage.sprite = interactable.interactIcon;
+                    interactable = hit.collider.GetComponent<Interactable>();
                 }
                 if(interactable.interactIcon != null)
                 {

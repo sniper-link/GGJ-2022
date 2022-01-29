@@ -452,3 +452,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8da88fe35ed4e84d85566b9aa7f7647, type: 3}
+--- !u!1 &7013312335847126976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7013312335839402779, guid: a8da88fe35ed4e84d85566b9aa7f7647, type: 3}
+  m_PrefabInstance: {fileID: 7013312335847126975}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7013312335847126977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7013312335847126976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0406ec07010c72488b9a48486e4011b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableLayermask:
+    serializedVersion: 2
+    m_Bits: 0
+  interactImage: {fileID: 0}
+  defaultIcon: {fileID: 0}
+  defaultIconSize: {x: 0, y: 0}
+  defaultInteractIcon: {fileID: 0}
+  defaultInteractIconSize: {x: 0, y: 0}
