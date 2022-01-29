@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    const float CAM_Y_MAX = -50f;
-    const float CAM_Y_MIN = 20f;
+    const float CAM_Y_MAX = 50f;
+    const float CAM_Y_MIN = -50f;
 
-    public Transform playerRef;
-    public Transform cameraTarget;
-    public bool thirdPersonCamera;
-    public float cameraDistance;
+    public Transform playerRef;    
+
+    public float mouseXSensitivity = 1.5f;
+    public float mouseYSensitivity = 1.0f;
 
     public float currentXRotation;
     public float currentYRotation;
@@ -21,30 +21,20 @@ public class CameraController : MonoBehaviour
         currentYRotation = 0;
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {
-        currentXRotation += (Input.GetAxis("Mouse X") * 1.5f);
-        currentYRotation -= (Input.GetAxis("Mouse Y") * 1.0f);
+        currentXRotation += (Input.GetAxis("Mouse X") * mouseXSensitivity);
+        currentYRotation -= (Input.GetAxis("Mouse Y") * mouseYSensitivity);
 
-        currentYRotation = Mathf.Clamp(currentYRotation, CAM_Y_MAX, CAM_Y_MIN);
+        currentYRotation = Mathf.Clamp(currentYRotation, CAM_Y_MIN, CAM_Y_MAX);
     }
 
     private void LateUpdate()
     {
-        //Vector3 dir = new Vector3(0, 0, -cameraDistance);
-        //Quaternion rotation = Quaternion.Euler(currentYRotation, currentXRotation, 0);
-        //transform.position = cameraTarget.position + rotation * dir * Time.deltaTime;
-        transform.rotation = Quaternion.Euler(currentYRotation, currentXRotation, 0);
-        //transform.LookAt(cameraTarget.position);
-        //playerCamTrans.position = playerTrans.position + rotation * dir;
-        //playerCamTrans.LookAt(playerTrans.position);
-        //playerRef.rotation = Quaternion.Euler(0, currentXRotation, 0);
+        // rotates camera up and down
+        transform.localRotation = Quaternion.Euler(currentYRotation, 0, 0);
+        // rotates player right and left
+        playerRef.rotation = Quaternion.Euler(0, currentXRotation, 0);
     }
 }

@@ -4,40 +4,35 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public CharacterController characterController;
+    private CharacterController characterController;
     public Camera playerCamera;
-    public float playerMoveSpeed = 10f;
 
     public float movementSpeed = 7f;
-    // might not need
-    public float gravity = 20f;
 
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        
+    }
 
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+    private void Update()
+    {
+        //Vector2 targetDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")).normalized;
+        float forwardMovement = Input.GetAxis("Horizontal");
+        float rightMovement = Input.GetAxis("Vertical");
 
-        Vector3 camForward = playerCamera.transform.forward;
-        Vector3 camRight = playerCamera.transform.right;
+        Vector3 playerForward = transform.forward;
+        Vector3 playerRight = transform.right;
 
-        Vector3 moveDir = new Vector3(((camForward.x * vertical) + (camRight.x * horizontal)) * movementSpeed, 0, ((camForward.z * vertical) + (camRight.z * horizontal)) * movementSpeed);
-        moveDir.y -= gravity;
+        Vector3 moveDir = ((playerForward * rightMovement) + (playerRight * forwardMovement)) * movementSpeed;
+
         characterController.Move(moveDir * Time.deltaTime);
-        transform.rotation = Quaternion.Euler(0, playerCamera.transform.eulerAngles.y, 0);
     }
 }
