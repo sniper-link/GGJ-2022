@@ -64,3 +64,4 @@ GGJ2022Unity/Logs
 GGJ2022Unity/.vsconfig
 *.meta
 GGJ2022Unity/UserSettings/EditorUserSettings.asset
+*.cache
