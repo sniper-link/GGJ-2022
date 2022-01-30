@@ -36,12 +36,15 @@ public class DialogueSystem: MonoBehaviour {
     private NPC interactingNPC;
 
     private bool playerReply = false;
-    public bool buttonPressed = false;
+    private bool buttonPressed = false;
+    private bool buttonAnswer = false;
+
 
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
         dialogueText.text = "";
+        ButtonGroup.SetActive(false);
     }
 
     public void PreStartTalking(GameObject NPC)
@@ -71,6 +74,19 @@ public class DialogueSystem: MonoBehaviour {
 
             while (currentDialogueIndex < dialogueLength || !letterIsMultiplied)
             {
+                if (buttonPressed)
+                {
+                    if (buttonAnswer)
+                    {
+                        currentDialogueIndex = 2;
+                        dialogueLength = 0;
+                    }
+                    else
+                    {
+                        currentDialogueIndex = 3;
+                        dialogueLength = 0;
+                    }
+                }
                 if (!letterIsMultiplied)
                 {
                     letterIsMultiplied = true;
@@ -85,11 +101,7 @@ public class DialogueSystem: MonoBehaviour {
             }
             while (true)
             {
-                if(buttonPressed)
-                {
-                    break;
-                }
-                else if (Input.GetKeyDown(DialogueInput) && dialogueEnded == false)
+                if (Input.GetKeyDown(DialogueInput) && dialogueEnded == false)
                 {
                     break;
                 }
@@ -118,7 +130,7 @@ public class DialogueSystem: MonoBehaviour {
             bool buttonPopUp;
             if (dialogueLines.Length > 1)
             {
-                buttonPopUp = ((questAStart || questBStart) && currentDialogueIndex == dialogueLines.Length - 1);
+                buttonPopUp = ((questAStart || questBStart) && currentDialogueIndex == 1);
             }
             else
             {
@@ -183,7 +195,7 @@ public class DialogueSystem: MonoBehaviour {
             dialogueEnded = false;
             letterIsMultiplied = false;
             dialogueText.text = "";
-            playerReply = true;
+            playerReply = !playerReply;
         }
     }
 
@@ -204,6 +216,7 @@ public class DialogueSystem: MonoBehaviour {
     public void OnButtonYes()
     {
         buttonPressed = true;
+        buttonAnswer = true;
         ButtonGroup.SetActive(false);
         interactAimImage.SetActive(true);
         Cursor.visible = false;
@@ -220,6 +233,7 @@ public class DialogueSystem: MonoBehaviour {
     public void OnButtonNo()
     {
         buttonPressed = true;
+        buttonAnswer = false;
         ButtonGroup.SetActive(false);
         interactAimImage.SetActive(true);
         Cursor.visible = false;

@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 dynamicInputVector;
     private Vector3 smoothInputVelocity;
     [SerializeField]
-    private float smoothInputSpeed = .05f;
+    private float smoothInputSpeed;
 
     static private bool onDialogue = false;
 
@@ -39,6 +39,7 @@ public class PlayerController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        smoothInputSpeed = movementSpeed / 140;
     }
 
     private void Update()

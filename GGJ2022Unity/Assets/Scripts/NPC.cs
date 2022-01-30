@@ -56,7 +56,7 @@ public class NPC : MonoBehaviour {
         {
             if (questATaken)
             {
-                dialogueSystem.dialogueLines = new string[] { questASentences[0] };
+                dialogueSystem.dialogueLines = new string[] { questASentences[0] + " (You said yes!)"};
             }
             else
             {
@@ -68,9 +68,9 @@ public class NPC : MonoBehaviour {
         }
         else if (!questBSentencesFinish || !questBFinish)
         {
-            if (questATaken)
+            if (questBTaken)
             {
-                dialogueSystem.dialogueLines = new string[] { questBSentences[0] };
+                dialogueSystem.dialogueLines = new string[] { questBSentences[0] + " (You said yes!)"};
             }
             else
             {
