@@ -348,6 +348,10 @@ PrefabInstance:
       value: 'Clay modeler - Jaime '
       objectReference: {fileID: 0}
     - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: ChatBackGround
+      value: 
+      objectReference: {fileID: 533742015}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: questASentences.Array.data[0]
       value: "\u201CIf you wanna do something nice for me, you can go get me a drink.\u201D\r\n"
       objectReference: {fileID: 0}
@@ -2332,6 +2336,10 @@ PrefabInstance:
       value: 'Animator - Gregory '
       objectReference: {fileID: 0}
     - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: ChatBackGround
+      value: 
+      objectReference: {fileID: 533742015}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: questASentences.Array.data[0]
       value: "\u201CShiiit, this tablet/tablet pen is dead. Mind grabbing me a new
         one?\u201D\r\n"
@@ -3912,6 +3920,10 @@ PrefabInstance:
       value: 'Smash Bros Gamer - Cash '
       objectReference: {fileID: 0}
     - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: ChatBackGround
+      value: 
+      objectReference: {fileID: 533742015}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: questASentences.Array.data[0]
       value: "\u201CHey! We have enough people for an all-out brawl, but we\u2019re
         missing one of the controller cords. You haven\u2019t seen it, have you?\u201D\r\n"
@@ -4625,10 +4637,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 7013312336136912988, guid: a8da88fe35ed4e84d85566b9aa7f7647, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8da88fe35ed4e84d85566b9aa7f7647, type: 3}
 --- !u!1001 &448056052
@@ -4890,6 +4898,10 @@ PrefabInstance:
       propertyPath: Name
       value: 'ASB - Rachel '
       objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: ChatBackGround
+      value: 
+      objectReference: {fileID: 533742015}
     - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: questASentences.Array.data[0]
       value: "\u201CI\u2019m running late, and there are a few flyers still left
@@ -5683,6 +5695,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6cb6d85e9c6ec844bcf4f81b0513a3e, type: 3}
+--- !u!224 &533742015 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3200752103347641673, guid: a8da88fe35ed4e84d85566b9aa7f7647, type: 3}
+  m_PrefabInstance: {fileID: 431994314}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &534472621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10618,6 +10635,10 @@ PrefabInstance:
       value: 'Audio person - Micha '
       objectReference: {fileID: 0}
     - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: ChatBackGround
+      value: 
+      objectReference: {fileID: 533742015}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: questASentences.Array.data[0]
       value: "\u201CCheck out this mix I made!\u201D\r"
       objectReference: {fileID: 0}
@@ -10852,6 +10873,10 @@ PrefabInstance:
       propertyPath: Name
       value: '3D modeler - Herold '
       objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: ChatBackGround
+      value: 
+      objectReference: {fileID: 533742015}
     - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: questASentences.Array.data[0]
       value: "\u201CI got a message that my print is done. I got class, so can you
@@ -12435,6 +12460,10 @@ PrefabInstance:
       propertyPath: Name
       value: 'Gentle art student - Mika '
       objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: ChatBackGround
+      value: 
+      objectReference: {fileID: 533742015}
     - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: questASentences.Array.data[0]
       value: "\u201CShoot! I forgot my kneaded eraser back at the dorms. I need it
@@ -14188,6 +14217,10 @@ PrefabInstance:
       value: 'Design student - Jackeline '
       objectReference: {fileID: 0}
     - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: ChatBackGround
+      value: 
+      objectReference: {fileID: 533742015}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: questASentences.Array.data[0]
       value: "\u201CWhat do you think about this design?\r\n"
       objectReference: {fileID: 0}
@@ -15522,6 +15555,10 @@ PrefabInstance:
       propertyPath: Name
       value: 'Al '
       objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: ChatBackGround
+      value: 
+      objectReference: {fileID: 533742015}
     - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: greetingSentences.Array.size
       value: 3
@@ -17475,6 +17512,10 @@ PrefabInstance:
       value: 'Esports guy - Brian '
       objectReference: {fileID: 0}
     - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: ChatBackGround
+      value: 
+      objectReference: {fileID: 533742015}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: questASentences.Array.data[0]
       value: "\u201CYou wanna help us convince coach to finally make a rocket league
         team?\u201D\r\n"
@@ -17868,6 +17909,10 @@ PrefabInstance:
       propertyPath: Name
       value: 'Chess kid - Kent '
       objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: ChatBackGround
+      value: 
+      objectReference: {fileID: 533742015}
     - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: questASentences.Array.data[0]
       value: "\u201CWhoever played last didn\u2019t set it up again. Can- Can you

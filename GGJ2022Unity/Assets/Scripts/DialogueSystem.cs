@@ -52,6 +52,7 @@ public class DialogueSystem: MonoBehaviour {
         outOfRange = false;
         playerReply = false;
         buttonPressed = false;
+        buttonAnswer = false;
         dialogueBoxGUI.SetActive(true);
         CameraController.SetOnDialogueTrue();
         PlayerController.SetOnDialogueTrue();

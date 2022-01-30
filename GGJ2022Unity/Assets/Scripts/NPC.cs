@@ -53,6 +53,8 @@ public class NPC : MonoBehaviour {
         dialogueSystem.Names = Name;
         if (!greetingSentencesFinish)
         {
+            dialogueSystem.questAStart = false;
+            dialogueSystem.questBStart = false;
             dialogueSystem.dialogueLines = greetingSentences;
             greetingSentencesFinish = true;
             dialogueSystem.PreStartTalking(this.gameObject);
