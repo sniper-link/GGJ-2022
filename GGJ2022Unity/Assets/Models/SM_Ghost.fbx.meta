@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7d600d138c2843949a1221b781e7b654
+guid: cbfd5124784b146408a99177efa5b5e9
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 639ce4e882537314fac73fee909c149b, type: 2}
+      name: NPCGirl2_COLOR
+    second: {fileID: 2100000, guid: 3fc29b3d6845e784c8766f59b0b17ef9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
