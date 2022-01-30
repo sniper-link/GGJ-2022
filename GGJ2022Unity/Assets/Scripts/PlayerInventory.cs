@@ -9,6 +9,8 @@ public class PlayerInventory : MonoBehaviour
     public List<ItemInfo> itemList;
     public PlayerUI playerUI;
 
+    public List<int> questCompletedList;
+
     public void AddItem(ItemInfo newItem)
     {
         if (!itemList.Contains(newItem) && itemList.Count < inventorySize)
@@ -28,5 +30,18 @@ public class PlayerInventory : MonoBehaviour
         {
             itemList.Remove(item);
         }
+    }
+
+    public void AddCompletedQuest(QuestInfo questInfo)
+    {
+        if (!questCompletedList.Contains(questInfo.questID))
+        {
+            questCompletedList.Add(questInfo.questID);
+        }
+    }
+
+    public int GetLastQuest()
+    {
+        return questCompletedList[questCompletedList.Count - 1];
     }
 }
