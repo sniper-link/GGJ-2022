@@ -3,7 +3,12 @@ guid: b3181f95d804ab646b0e0287d9e54fce
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Den_props_texture
+    second: {fileID: 2100000, guid: 06c02581041f75147b0a6e7210f69879, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
