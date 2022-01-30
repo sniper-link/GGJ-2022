@@ -12,6 +12,7 @@ public class DialogueSystem: MonoBehaviour {
     public Transform dialogueBoxGUI;
 
     public GameObject ButtonGroup;
+    public GameObject interactAimImage;
 
     public float letterDelay = 0.1f;
     public float letterMultiplier = 0.5f;
@@ -32,9 +33,10 @@ public class DialogueSystem: MonoBehaviour {
     public AudioClip audioClip;
     AudioSource audioSource;
 
-    private GameObject interactingNPC;
+    private NPC interactingNPC;
 
     private bool playerReply = false;
+    public bool buttonPressed = false;
 
     void Start()
     {
@@ -42,11 +44,12 @@ public class DialogueSystem: MonoBehaviour {
         dialogueText.text = "";
     }
 
-    public void preStartTalking(GameObject NPC)
+    public void PreStartTalking(GameObject NPC)
     {
-        interactingNPC = NPC;
+        interactingNPC = NPC.GetComponent<NPC>();
         outOfRange = false;
         playerReply = false;
+        buttonPressed = false;
         dialogueBoxGUI.gameObject.SetActive(true);
         CameraController.SetOnDialogueTrue();
         PlayerController.SetOnDialogueTrue();
@@ -71,7 +74,7 @@ public class DialogueSystem: MonoBehaviour {
                 if (!letterIsMultiplied)
                 {
                     letterIsMultiplied = true;
-                    StartCoroutine(DisplayString(dialogueLines[currentDialogueIndex++]));
+                    StartCoroutine(DisplayString(currentDialogueIndex, dialogueLines[currentDialogueIndex++]));
 
                     if (currentDialogueIndex >= dialogueLength)
                     {
@@ -80,12 +83,11 @@ public class DialogueSystem: MonoBehaviour {
                 }
                 yield return 0;
             }
-
             while (true)
             {
-                if (questAStart || questBStart)
+                if(buttonPressed)
                 {
-                    ButtonGroup.SetActive(true);
+                    break;
                 }
                 else if (Input.GetKeyDown(DialogueInput) && dialogueEnded == false)
                 {
@@ -99,12 +101,11 @@ public class DialogueSystem: MonoBehaviour {
         }
     }
 
-    private IEnumerator DisplayString(string stringToDisplay)
+    private IEnumerator DisplayString(int currentDialogueIndex, string stringToDisplay)
     {
         if (!playerReply)
         {
             nameText.text = Names;
-            playerReply = true;
         }
         else
         {
@@ -114,6 +115,15 @@ public class DialogueSystem: MonoBehaviour {
         {
             int stringLength = stringToDisplay.Length;
             int currentCharacterIndex = 0;
+            bool buttonPopUp;
+            if (dialogueLines.Length > 1)
+            {
+                buttonPopUp = ((questAStart || questBStart) && currentDialogueIndex == dialogueLines.Length - 1);
+            }
+            else
+            {
+                buttonPopUp = false;
+            }
 
             dialogueText.text = "";
 
@@ -124,6 +134,10 @@ public class DialogueSystem: MonoBehaviour {
 
                 if (currentCharacterIndex < stringLength)
                 {
+                    if(buttonPopUp)
+                    {
+                        continue;
+                    }
                     if (Input.GetKey(DialogueInput))
                     {
                         yield return new WaitForSeconds(letterDelay * letterMultiplier);
@@ -143,28 +157,37 @@ public class DialogueSystem: MonoBehaviour {
                     break;
                 }
             }
-            while (true)
+            if (buttonPopUp)
             {
-                if (Input.GetKeyDown(DialogueInput))
+                buttonPressed = false;
+                ButtonGroup.SetActive(true);
+                interactAimImage.SetActive(false);
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.Confined;
+                while (!buttonPressed)
                 {
-                    break;
+                    yield return 0;
                 }
-                yield return 0;
+            }
+            else
+            {
+                while (true)
+                {
+                    if (Input.GetKeyDown(DialogueInput))
+                    {
+                        break;
+                    }
+                    yield return 0;
+                }
             }
             dialogueEnded = false;
             letterIsMultiplied = false;
             dialogueText.text = "";
+            playerReply = true;
         }
     }
 
     public void DropDialogue()
-    {       
-        dialogueGUI.SetActive(false);
-        dialogueBoxGUI.gameObject.SetActive(false);
-        OutOfRange();
-    }
-
-    public void OutOfRange()
     {
         outOfRange = true;
         letterIsMultiplied = false;
@@ -178,12 +201,28 @@ public class DialogueSystem: MonoBehaviour {
         Interactor.SetOnDialogueFalse();
     }
 
-    public void onButtonYes()
+    public void OnButtonYes()
     {
-
+        buttonPressed = true;
+        ButtonGroup.SetActive(false);
+        interactAimImage.SetActive(true);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        if (questAStart)
+        {
+            interactingNPC.questATaken = true;
+        }
+        else if(questBStart)
+        {
+            interactingNPC.questBTaken = true;
+        }
     }
-    public void onButtonNo()
+    public void OnButtonNo()
     {
-
+        buttonPressed = true;
+        ButtonGroup.SetActive(false);
+        interactAimImage.SetActive(true);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }

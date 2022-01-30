@@ -14,10 +14,10 @@ public class NPC : MonoBehaviour {
 
     private bool greetingSentencesFinish = false;
     private bool questASentencesFinish = false;
-    private bool questATaken = false;
+    public bool questATaken = false;
     private bool questAFinish = false;
     private bool questBSentencesFinish = false;
-    private bool questBTaken = false;
+    public bool questBTaken = false;
     private bool questBFinish = false;
 
     [TextArea(5, 10)]
@@ -49,24 +49,41 @@ public class NPC : MonoBehaviour {
         {
             dialogueSystem.dialogueLines = greetingSentences;
             greetingSentencesFinish = true;
+            dialogueSystem.PreStartTalking(this.gameObject);
+
         }
         else if(!questASentencesFinish || !questAFinish)
         {
-            dialogueSystem.dialogueLines = questASentences;
-            dialogueSystem.questAStart = true;
-            questASentencesFinish = true;
+            if (questATaken)
+            {
+                dialogueSystem.dialogueLines = new string[] { questASentences[0] };
+            }
+            else
+            {
+                dialogueSystem.dialogueLines = questASentences;
+                dialogueSystem.questAStart = true;
+                questASentencesFinish = true;
+            }
+            dialogueSystem.PreStartTalking(this.gameObject);
         }
         else if (!questBSentencesFinish || !questBFinish)
         {
-            dialogueSystem.dialogueLines = questBSentences;
-            dialogueSystem.questBStart = true;
-            questBSentencesFinish = true;
+            if (questATaken)
+            {
+                dialogueSystem.dialogueLines = new string[] { questBSentences[0] };
+            }
+            else
+            {
+                dialogueSystem.dialogueLines = questBSentences;
+                dialogueSystem.questBStart = true;
+                questBSentencesFinish = true;
+            }
+            dialogueSystem.PreStartTalking(this.gameObject);
         }
         else
         {
             Debug.Log("Finished All Quests!");
         }
-        dialogueSystem.preStartTalking(this.gameObject);
     }
 }
 
