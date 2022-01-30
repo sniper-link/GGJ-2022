@@ -3,7 +3,12 @@ guid: ddd0e89dac0a3e4409c5c004e35154c3
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Perch_props_texture
+    second: {fileID: 2100000, guid: 8136fcb37d59d2c49b928e2e19d0df8c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

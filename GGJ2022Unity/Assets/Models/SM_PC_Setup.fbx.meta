@@ -3,7 +3,37 @@ guid: 030c0210fc78d5847890e0164a638b87
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Desk_A_texture
+    second: {fileID: 2100000, guid: 01f581090a6b4644fa80dd6552883a2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Keyboard_texture
+    second: {fileID: 2100000, guid: 9ee9a99ce0833a248b2f6419a29f94cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Monitor_texture
+    second: {fileID: 2100000, guid: 6c053d9424e48e9408b092696316a7c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mouse_texture
+    second: {fileID: 2100000, guid: ee829d6faba8eef46974d6812bb3ee9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Office_Chair_texture
+    second: {fileID: 2100000, guid: 812a34218e307c74b88c3ed84a695c2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PC_texture
+    second: {fileID: 2100000, guid: 023915442d7f6be468898b3be1743762, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

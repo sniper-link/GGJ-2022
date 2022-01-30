@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 332ad4b0a64f2ce45b671f746c9630d2
+guid: a3fa21e57fa2c8347ab8881cc0b76ac6
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: T_Door
-    second: {fileID: 2100000, guid: 95dc21deb258d8546a82a57a88ecbed6, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

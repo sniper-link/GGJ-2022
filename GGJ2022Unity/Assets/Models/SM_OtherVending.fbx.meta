@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 332ad4b0a64f2ce45b671f746c9630d2
+guid: 0b8a0350d6c2ebc47bbdab56541a9c02
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: T_Door
-    second: {fileID: 2100000, guid: 95dc21deb258d8546a82a57a88ecbed6, type: 2}
+      name: SM_OtherVending_texture
+    second: {fileID: 2100000, guid: c5e21d20977198743bfd1dc30d67cb4d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
