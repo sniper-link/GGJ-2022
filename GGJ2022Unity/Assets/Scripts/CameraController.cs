@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    const float CAM_X_MAX = 50f;
-    const float CAM_X_MIN = -50f;
+    const float CAM_MAX = 50f;
+    const float CAM_MIN = -50f;
 
     public Transform playerRef;    
 
@@ -16,6 +16,8 @@ public class CameraController : MonoBehaviour
     public float currentYRotation;
 
     float yRotation = 0f;
+
+    static private bool onDialogue = false;
 
     private void Awake()
     {
@@ -30,12 +32,26 @@ public class CameraController : MonoBehaviour
         currentYRotation = Input.GetAxis("Mouse Y") * mouseYSensitivity;
 
         yRotation -= currentYRotation;
-        yRotation = Mathf.Clamp(yRotation, CAM_X_MIN, CAM_X_MAX);
+        yRotation = Mathf.Clamp(yRotation, CAM_MIN, CAM_MAX);
+
 
         // rotates camera up and down
         transform.localRotation = Quaternion.Euler(yRotation, 0, 0);
-        // rotates player right and left
-        playerRef.Rotate(Vector3.up * currentXRotation);
+        if (!onDialogue)
+        {
+            // rotates player right and left
+            playerRef.Rotate(Vector3.up * currentXRotation);
+
+        }
+    }
+
+    static public void SetOnDialogueTrue()
+    {
+        onDialogue = true;
+    }
+    static public void SetOnDialogueFalse()
+    {
+        onDialogue = false;
     }
 
     /*

@@ -12,8 +12,20 @@ public class NPC : MonoBehaviour {
 
     public string Name;
 
+    private bool greetingSentencesFinish = false;
+    private bool questASentencesFinish = false;
+    private bool questATaken = false;
+    private bool questAFinish = false;
+    private bool questBSentencesFinish = false;
+    private bool questBTaken = false;
+    private bool questBFinish = false;
+
     [TextArea(5, 10)]
-    public string[] sentences;
+    public string[] greetingSentences;
+    [TextArea(5, 10)]
+    public string[] questASentences;
+    [TextArea(5, 10)]
+    public string[] questBSentences;
 
     void Awake()
     {
@@ -32,17 +44,29 @@ public class NPC : MonoBehaviour {
 
     public void Chat()
     {
-        // this.gameObject.GetComponent<NPC>().enabled = true;
-        // dialogueSystem.EnterRangeOfNPC();
         dialogueSystem.Names = Name;
-        dialogueSystem.dialogueLines = sentences;
-        dialogueSystem.NPCName(this.gameObject);
-    }
-
-    public void OutChat()
-    {
-        dialogueSystem.OutOfRange();
-        // this.gameObject.GetComponent<NPC>().enabled = false;
+        if (!greetingSentencesFinish)
+        {
+            dialogueSystem.dialogueLines = greetingSentences;
+            greetingSentencesFinish = true;
+        }
+        else if(!questASentencesFinish || !questAFinish)
+        {
+            dialogueSystem.dialogueLines = questASentences;
+            dialogueSystem.questAStart = true;
+            questASentencesFinish = true;
+        }
+        else if (!questBSentencesFinish || !questBFinish)
+        {
+            dialogueSystem.dialogueLines = questBSentences;
+            dialogueSystem.questBStart = true;
+            questBSentencesFinish = true;
+        }
+        else
+        {
+            Debug.Log("Finished All Quests!");
+        }
+        dialogueSystem.preStartTalking(this.gameObject);
     }
 }
 

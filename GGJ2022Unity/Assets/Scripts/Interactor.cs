@@ -12,6 +12,9 @@ public class Interactor : MonoBehaviour
     public Vector2 defaultIconSize;
     public Sprite defaultInteractIcon;
     public Vector2 defaultInteractIconSize;
+
+    static private bool onDialogue = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,7 +53,10 @@ public class Interactor : MonoBehaviour
                 }
                 if (Input.GetKeyDown(KeyCode.F))
                 {
-                    interactable.onInteract.Invoke();
+                    if(!onDialogue)
+                    {
+                        interactable.onInteract.Invoke();
+                    }
                 }
             }
         }
@@ -62,5 +68,13 @@ public class Interactor : MonoBehaviour
                 interactAimImage.rectTransform.sizeDelta = defaultIconSize;
             }
         }
+    }
+    static public void SetOnDialogueTrue()
+    {
+        onDialogue = true;
+    }
+    static public void SetOnDialogueFalse()
+    {
+        onDialogue = false;
     }
 }

@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float smoothInputSpeed = .05f;
 
+    static private bool onDialogue = false;
+
     /*
     // If we need a jump function -> uncomment this and the Jump code below
     // Jump variable
@@ -27,7 +29,7 @@ public class PlayerController : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
     */
-    
+
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
@@ -41,21 +43,22 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        // Vector2 targetDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")).normalized;
-        float forwardMovement = Input.GetAxis("Vertical");
-        float rightMovement = Input.GetAxis("Horizontal");
+        if (!onDialogue)
+        {
+            // Vector2 targetDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")).normalized;
+            float forwardMovement = Input.GetAxis("Vertical");
+            float rightMovement = Input.GetAxis("Horizontal");
         
-        Vector3 playerForward = transform.forward;
-        Vector3 playerRight = transform.right;
+            Vector3 playerForward = transform.forward;
+            Vector3 playerRight = transform.right;
 
-        Vector3 targetMoveDir = playerForward * forwardMovement + playerRight * rightMovement;
+            Vector3 targetMoveDir = playerForward * forwardMovement + playerRight * rightMovement;
 
-        dynamicInputVector = Vector3.SmoothDamp(dynamicInputVector, targetMoveDir, ref smoothInputVelocity, smoothInputSpeed);
+            dynamicInputVector = Vector3.SmoothDamp(dynamicInputVector, targetMoveDir, ref smoothInputVelocity, smoothInputSpeed);
 
-        Vector3 dynamicMoveDir = new Vector3(dynamicInputVector.x, 0, dynamicInputVector.z);
-
-        characterController.Move(movementSpeed * Time.deltaTime * dynamicMoveDir);
-
+            Vector3 dynamicMoveDir = new Vector3(dynamicInputVector.x, 0, dynamicInputVector.z);
+            characterController.Move(movementSpeed * Time.deltaTime * dynamicMoveDir);
+        }
         /*
         // Jump code
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundmask);
@@ -74,5 +77,14 @@ public class PlayerController : MonoBehaviour
 
         characterController.Move(velocity * Time.deltaTime);
         */
+    }
+
+    static public void SetOnDialogueTrue()
+    {
+        onDialogue = true;
+    }
+    static public void SetOnDialogueFalse()
+    {
+        onDialogue = false;
     }
 }

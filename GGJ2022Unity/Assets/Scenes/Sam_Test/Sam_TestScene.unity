@@ -502,11 +502,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChatBackGround: {fileID: 0}
   Name: Gentle art student - Mika
-  sentences:
+  greetingSentences:
   - Hello! ^^ How are you?
-  - "Shoot! I forgot my kneaded eraser back at the dorms.  I need it for today\u2019s
-    class."
-  - Can you run to the shop in the Den and buy me a new one? I can pay you back later!
+  - "I\u2019m doing good. What about you?"
+  questASentences:
+  - "Shoot! I forgot my kneaded eraser back at the dorms. I need it for today\u2019s
+    class. Can you run to the shop in the Den and buy me a new one? I can pay you
+    back later!"
+  - "1. \u201CSure, don\u2019t worry about it.\u201D\r\n2. \u201CYour the best, seriously!\u201D\r\n3.
+    \u201CSorry, I can\u2019t.\u201D\r\n4. \u201CThat\u2019s alright, I\u2019ll manage
+    ^^\u201D\r"
+  questBSentences:
+  - Oh hey! Can you run this to JAIME? I meant to give this to them during class.
+  - "1. \u201CSure, don\u2019t worry about it.\u201D\r\n2. \u201CGreat! Thank you
+    SO much!\u201D\r\n3. \u201CSorry, I can\u2019t.\u201D\r\n4. \u201COh, if you\u2019re
+    busy, don\u2019t worry about it.\u201D\r"
 --- !u!1 &1210518639
 GameObject:
   m_ObjectHideFlags: 0

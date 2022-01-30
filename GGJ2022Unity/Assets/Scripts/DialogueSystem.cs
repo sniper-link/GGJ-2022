@@ -11,6 +11,8 @@ public class DialogueSystem: MonoBehaviour {
     public GameObject dialogueGUI;
     public Transform dialogueBoxGUI;
 
+    public GameObject ButtonGroup;
+
     public float letterDelay = 0.1f;
     public float letterMultiplier = 0.5f;
 
@@ -19,6 +21,8 @@ public class DialogueSystem: MonoBehaviour {
     public string Names;
 
     public string[] dialogueLines;
+    public bool questAStart;
+    public bool questBStart;
 
     public bool letterIsMultiplied = false;
     public bool dialogueActive = false;
@@ -28,41 +32,34 @@ public class DialogueSystem: MonoBehaviour {
     public AudioClip audioClip;
     AudioSource audioSource;
 
+    private GameObject interactingNPC;
+
+    private bool playerReply = false;
+
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
         dialogueText.text = "";
     }
 
-    void Update()
+    public void preStartTalking(GameObject NPC)
     {
-
-    }
-
-    public void EnterRangeOfNPC()
-    {
+        interactingNPC = NPC;
         outOfRange = false;
-        dialogueGUI.SetActive(true);
-        if (dialogueActive == true)
-        {
-            dialogueGUI.SetActive(false);
-        }
-    }
-
-    public void NPCName(GameObject NPC)
-    {
-        outOfRange = false;
+        playerReply = false;
         dialogueBoxGUI.gameObject.SetActive(true);
-        nameText.text = Names;
+        CameraController.SetOnDialogueTrue();
+        PlayerController.SetOnDialogueTrue();
+        Interactor.SetOnDialogueTrue();
         if (!dialogueActive)
         {
             dialogueActive = true;
-            StartCoroutine(StartDialogue(NPC));
+            StartCoroutine(StartDialogue());
         }
-        StartDialogue(NPC);
+        StartDialogue();
     }
 
-    private IEnumerator StartDialogue(GameObject NPC)
+    private IEnumerator StartDialogue()
     {
         if (outOfRange == false)
         {
@@ -86,7 +83,11 @@ public class DialogueSystem: MonoBehaviour {
 
             while (true)
             {
-                if (Input.GetKeyDown(DialogueInput) && dialogueEnded == false)
+                if (questAStart || questBStart)
+                {
+                    ButtonGroup.SetActive(true);
+                }
+                else if (Input.GetKeyDown(DialogueInput) && dialogueEnded == false)
                 {
                     break;
                 }
@@ -94,12 +95,21 @@ public class DialogueSystem: MonoBehaviour {
             }
             dialogueEnded = false;
             dialogueActive = false;
-            DropDialogue(NPC);
+            DropDialogue();
         }
     }
 
     private IEnumerator DisplayString(string stringToDisplay)
     {
+        if (!playerReply)
+        {
+            nameText.text = Names;
+            playerReply = true;
+        }
+        else
+        {
+            nameText.text = "You";
+        }
         if (outOfRange == false)
         {
             int stringLength = stringToDisplay.Length;
@@ -147,23 +157,33 @@ public class DialogueSystem: MonoBehaviour {
         }
     }
 
-    public void DropDialogue(GameObject NPC)
+    public void DropDialogue()
     {       
         dialogueGUI.SetActive(false);
         dialogueBoxGUI.gameObject.SetActive(false);
-        NPC.GetComponent<NPC>().OutChat();
+        OutOfRange();
     }
 
     public void OutOfRange()
     {
         outOfRange = true;
-        if (outOfRange == true)
-        {
-            letterIsMultiplied = false;
-            dialogueActive = false;
-            StopAllCoroutines();
-            dialogueGUI.SetActive(false);
-            dialogueBoxGUI.gameObject.SetActive(false);
-        }
+        letterIsMultiplied = false;
+        dialogueActive = false;
+        StopAllCoroutines();
+        dialogueGUI.SetActive(false);
+        dialogueBoxGUI.gameObject.SetActive(false);
+
+        CameraController.SetOnDialogueFalse();
+        PlayerController.SetOnDialogueFalse();
+        Interactor.SetOnDialogueFalse();
+    }
+
+    public void onButtonYes()
+    {
+
+    }
+    public void onButtonNo()
+    {
+
     }
 }
