@@ -8,8 +8,7 @@ public class DialogueSystem: MonoBehaviour {
     public Text nameText;
     public Text dialogueText;
 
-    public GameObject dialogueGUI;
-    public Transform dialogueBoxGUI;
+    public GameObject dialogueBoxGUI;
 
     public GameObject ButtonGroup;
     public GameObject interactAimImage;
@@ -53,7 +52,7 @@ public class DialogueSystem: MonoBehaviour {
         outOfRange = false;
         playerReply = false;
         buttonPressed = false;
-        dialogueBoxGUI.gameObject.SetActive(true);
+        dialogueBoxGUI.SetActive(true);
         CameraController.SetOnDialogueTrue();
         PlayerController.SetOnDialogueTrue();
         Interactor.SetOnDialogueTrue();
@@ -205,8 +204,7 @@ public class DialogueSystem: MonoBehaviour {
         letterIsMultiplied = false;
         dialogueActive = false;
         StopAllCoroutines();
-        dialogueGUI.SetActive(false);
-        dialogueBoxGUI.gameObject.SetActive(false);
+        dialogueBoxGUI.SetActive(false);
 
         CameraController.SetOnDialogueFalse();
         PlayerController.SetOnDialogueFalse();

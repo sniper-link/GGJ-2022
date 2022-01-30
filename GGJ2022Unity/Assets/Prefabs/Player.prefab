@@ -2454,8 +2454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 958120606}
   dialogueText: {fileID: 6912578311928822496}
-  dialogueGUI: {fileID: 0}
-  dialogueBoxGUI: {fileID: 645262090094575159}
+  dialogueBoxGUI: {fileID: 7156897915022465656}
   ButtonGroup: {fileID: 729150677}
   interactAimImage: {fileID: 3944624588563630664}
   letterDelay: 0.05
