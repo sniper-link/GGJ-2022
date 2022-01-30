@@ -16,13 +16,12 @@ public class PlayerUI : MonoBehaviour
         {
             slot.sprite = null;
         }
-        UpdateDialogue();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        UpdateDialogue();
     }
 
     // Update is called once per frame

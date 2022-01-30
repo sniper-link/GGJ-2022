@@ -1954,7 +1954,7 @@ MonoBehaviour:
   dialogueGUI: {fileID: 0}
   dialogueBoxGUI: {fileID: 645262090094575159}
   letterDelay: 0.05
-  letterMultiplier: 0.25
+  letterMultiplier: 0.2
   DialogueInput: 102
   Names: You
   dialogueLines: []

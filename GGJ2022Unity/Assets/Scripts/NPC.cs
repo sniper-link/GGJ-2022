@@ -6,9 +6,8 @@ using UnityEngine;
 [System.Serializable]
 public class NPC : MonoBehaviour {
 
+    // public Transform NPCCharacter;
     public Transform ChatBackGround;
-    public Transform NPCCharacter;
-
     private DialogueSystem dialogueSystem;
 
     public string Name;
@@ -16,12 +15,17 @@ public class NPC : MonoBehaviour {
     [TextArea(5, 10)]
     public string[] sentences;
 
+    void Awake()
+    {
+        ChatBackGround = GameObject.Find("DialogueBG").GetComponent<Transform>();
+    }
+
     void Start () {
         dialogueSystem = FindObjectOfType<DialogueSystem>();
     }
 	
 	void Update () {
-          Vector3 Pos = Camera.main.WorldToScreenPoint(NPCCharacter.position);
+          Vector3 Pos = Camera.main.WorldToScreenPoint(this.gameObject.transform.position);
           Pos.y += 175;
           ChatBackGround.position = Pos;
     }

@@ -500,8 +500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChatBackGround: {fileID: 1412745057}
-  NPCCharacter: {fileID: 962353762}
+  ChatBackGround: {fileID: 0}
   Name: Gentle art student - Mika
   sentences:
   - Hello! ^^ How are you?
@@ -722,11 +721,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!224 &1412745057 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3200752103347641673, guid: a8da88fe35ed4e84d85566b9aa7f7647, type: 3}
-  m_PrefabInstance: {fileID: 7013312335847126975}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1600234632
 GameObject:
   m_ObjectHideFlags: 0
