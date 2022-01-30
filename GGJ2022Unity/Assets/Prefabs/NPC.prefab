@@ -61,6 +61,7 @@ GameObject:
   - component: {fileID: 7013312336136912986}
   - component: {fileID: 7013312336136912987}
   - component: {fileID: 1890659040}
+  - component: {fileID: 58846261131219840}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -131,6 +132,36 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &58846261131219840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7013312336136912988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChatBackGround: {fileID: 0}
+  Name: 
+  questATaken: 0
+  questBTaken: 0
+  dialogueActive: 0
+  greetingSentences:
+  - 
+  - 
+  questASentences:
+  - 
+  - 
+  - 
+  - 
+  questBSentences:
+  - 
+  - 
+  - 
+  - 
 --- !u!1001 &2995503636177388134
 PrefabInstance:
   m_ObjectHideFlags: 0
