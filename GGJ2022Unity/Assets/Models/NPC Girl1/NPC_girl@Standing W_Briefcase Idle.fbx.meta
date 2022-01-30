@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bdac2db989375aa42829dab6eb4c04be
+guid: 1435deb32a895234aace01030751b137
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
@@ -10,8 +10,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
+      name: girl1Body_MAT
     second: {fileID: 2100000, guid: 7cfeffa6c5a82ed4fb637a383dda4765, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: girl1Hair_MAT
+    second: {fileID: 2100000, guid: 44e2bfab4545da042bcedc4b5e1f55aa, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
