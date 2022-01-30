@@ -504,6 +504,7 @@ MonoBehaviour:
   Name: Gentle art student - Mika
   questATaken: 0
   questBTaken: 0
+  dialogueActive: 0
   greetingSentences:
   - Hello! ^^ How are you?
   - "I\u2019m doing good. What about you?"
@@ -533,8 +534,9 @@ GameObject:
   - component: {fileID: 1210518642}
   - component: {fileID: 1210518641}
   - component: {fileID: 1210518640}
+  - component: {fileID: 1210518645}
   m_Layer: 8
-  m_Name: Sphere_02
+  m_Name: Animator - Gregory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -554,7 +556,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onInteract:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1210518645}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Chat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactIcon: {fileID: 0}
   iconSize: {x: 0, y: 0}
   ID: 0
@@ -634,6 +648,38 @@ Transform:
   m_Father: {fileID: 1788265373}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1210518645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210518639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChatBackGround: {fileID: 0}
+  Name: Animator - Gregory
+  questATaken: 0
+  questBTaken: 0
+  dialogueActive: 0
+  greetingSentences:
+  - "\u201CFuck rigging, am I right?\u201D"
+  - "\u201CSure?\u201D"
+  questASentences:
+  - "\u201CShiiit, this tablet/tablet pen is dead. Mind grabbing me a new one?\u201D"
+  - "1. \u201CSure thing.\u201D\r\n2. \u201CIt\u2019s too faaar.\u201D\n"
+  - "\u201CCool, thanks dude.\u201D\r"
+  - "\u201CUuuggghhh, making me get my fat ass up- how dare you?\u201D\r\n"
+  questBSentences:
+  - "\u201CHey, HEROLD was supposed to have my model done for rigging today. When
+    you see them, can you see if they have the flashdrive ready for me?\u201D\r"
+  - "1. \u201CYeah, I\u2019ll ask.\u201D\r\n2. \u201CSorry, I have to head out right
+    after class.\u201D"
+  - "\u201CCool, thanks fam.\u201D\r"
+  - "\u201CNah, it\u2019s chill. I\u2019ll get it later then.\u201D\r"
 --- !u!1 &1275718175
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,10 +915,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7013312335847126980, guid: a8da88fe35ed4e84d85566b9aa7f7647, type: 3}
-      propertyPath: dialogueGUI
-      value: 
-      objectReference: {fileID: 1275718175}
     - target: {fileID: 7013312336136912982, guid: a8da88fe35ed4e84d85566b9aa7f7647, type: 3}
       propertyPath: m_RootOrder
       value: 4

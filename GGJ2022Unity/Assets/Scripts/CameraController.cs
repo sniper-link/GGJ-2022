@@ -19,6 +19,14 @@ public class CameraController : MonoBehaviour
 
     static private bool onDialogue = false;
 
+    public float originalHeight = 1.55f;
+    public float originalSpeed;
+
+    public float crouchingHeight = 0.5f;
+    public float crouchingSpeed;
+    public KeyCode crouchingInput = KeyCode.LeftControl;
+    public bool isCrouching = false;
+
     private void Awake()
     {
         currentXRotation = 0;
@@ -42,6 +50,24 @@ public class CameraController : MonoBehaviour
             // rotates player right and left
             playerRef.Rotate(Vector3.up * currentXRotation);
 
+            if (Input.GetKey(crouchingInput))
+            {
+                isCrouching = true;
+            }
+            else
+            {
+                isCrouching = false;
+            }
+            if (isCrouching)
+            {
+                transform.localPosition = new Vector3(0, crouchingHeight, 0);
+                // movementSpeed = crouchingSpeed;
+            }
+            else
+            {
+                transform.localPosition = new Vector3(0, originalHeight, 0);
+                // movementSpeed = originalSpeed;
+            }
         }
     }
 

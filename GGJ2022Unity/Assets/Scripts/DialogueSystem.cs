@@ -209,6 +209,8 @@ public class DialogueSystem: MonoBehaviour {
         CameraController.SetOnDialogueFalse();
         PlayerController.SetOnDialogueFalse();
         Interactor.SetOnDialogueFalse();
+
+        interactingNPC.dialogueActive = false;
     }
 
     public void OnButtonYes()

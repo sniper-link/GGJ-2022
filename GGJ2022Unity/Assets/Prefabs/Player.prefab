@@ -1986,6 +1986,12 @@ MonoBehaviour:
   mouseYSensitivity: 1
   currentXRotation: 0
   currentYRotation: 0
+  originalHeight: 1.55
+  originalSpeed: 0
+  crouchingHeight: 0.5
+  crouchingSpeed: 0
+  crouchingInput: 306
+  isCrouching: 0
 --- !u!114 &7013312335847126977
 MonoBehaviour:
   m_ObjectHideFlags: 0

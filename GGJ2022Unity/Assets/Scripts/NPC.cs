@@ -20,12 +20,14 @@ public class NPC : MonoBehaviour {
     public bool questBTaken = false;
     private bool questBFinish = false;
 
+    public bool dialogueActive = false;
+
     [TextArea(5, 10)]
-    public string[] greetingSentences;
+    public string[] greetingSentences = new string[2];
     [TextArea(5, 10)]
-    public string[] questASentences;
+    public string[] questASentences = new string[4];
     [TextArea(5, 10)]
-    public string[] questBSentences;
+    public string[] questBSentences = new string[4];
 
     void Awake()
     {
@@ -37,13 +39,17 @@ public class NPC : MonoBehaviour {
     }
 	
 	void Update () {
-          Vector3 Pos = Camera.main.WorldToScreenPoint(this.gameObject.transform.position);
-          Pos.y += 175;
-          ChatBackGround.position = Pos;
+        if (dialogueActive)
+        {
+            Vector3 Pos = Camera.main.WorldToScreenPoint(this.gameObject.transform.position);
+            Pos.y += 175;
+            ChatBackGround.position = Pos;
+        }
     }
 
     public void Chat()
     {
+        dialogueActive = true;
         dialogueSystem.Names = Name;
         if (!greetingSentencesFinish)
         {
