@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    const float CAM_Y_MAX = 50f;
-    const float CAM_Y_MIN = -50f;
+    const float CAM_X_MAX = 50f;
+    const float CAM_X_MIN = -50f;
 
     public Transform playerRef;    
 
@@ -14,6 +14,8 @@ public class CameraController : MonoBehaviour
 
     public float currentXRotation;
     public float currentYRotation;
+
+    float yRotation = 0f;
 
     private void Awake()
     {
@@ -24,17 +26,25 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentXRotation += (Input.GetAxis("Mouse X") * mouseXSensitivity);
-        currentYRotation -= (Input.GetAxis("Mouse Y") * mouseYSensitivity);
+        currentXRotation = Input.GetAxis("Mouse X") * mouseXSensitivity;
+        currentYRotation = Input.GetAxis("Mouse Y") * mouseYSensitivity;
 
-        currentYRotation = Mathf.Clamp(currentYRotation, CAM_Y_MIN, CAM_Y_MAX);
+        yRotation -= currentYRotation;
+        yRotation = Mathf.Clamp(yRotation, CAM_X_MIN, CAM_X_MAX);
+
+        // rotates camera up and down
+        transform.localRotation = Quaternion.Euler(yRotation, 0, 0);
+        // rotates player right and left
+        playerRef.Rotate(Vector3.up * currentXRotation);
     }
 
+    /*
     private void LateUpdate()
     {
         // rotates camera up and down
-        transform.localRotation = Quaternion.Euler(currentYRotation, 0, 0);
+        transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
         // rotates player right and left
-        playerRef.rotation = Quaternion.Euler(0, currentXRotation, 0);
+        playerRef.Rotate(Vector3.up * currentXRotation); 
     }
+    */
 }

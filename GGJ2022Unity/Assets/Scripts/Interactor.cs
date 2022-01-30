@@ -15,17 +15,7 @@ public class Interactor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(interactAimImage == null)
-        {
-            try
-            {
-                interactAimImage = GameObject.Find("Interaction_Aim_Image").GetComponent<Image>();
-            }
-            catch(System.Exception e)
-            {
-                Debug.Log($"----- You forgot to create a Interaction_Aim_Image for PlayerUI! ----- Exception: {e}");
-            }
-        }
+
     }
     
     // Update is called once per frame
