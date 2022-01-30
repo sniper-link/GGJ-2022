@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a3fa21e57fa2c8347ab8881cc0b76ac6
+guid: 98aa4fd24cc5b1540ad08a4793252ace
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: T_WetFloorSign
-    second: {fileID: 2100000, guid: 0195907d3762b5044b8ab49ba66241a0, type: 2}
+      name: T_tabletPen
+    second: {fileID: 2100000, guid: 5aa69de2935a901439d681f97e44e884, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
