@@ -26,7 +26,7 @@ public class Interactor : MonoBehaviour
     {
         var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if(Physics.Raycast(ray, out hit, 2))
+        if(Physics.Raycast(ray, out hit, 3))
         {
             if (hit.collider.GetComponent<Interactable>() != false)
             {

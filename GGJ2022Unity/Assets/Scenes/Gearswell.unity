@@ -339,6 +339,151 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601836593}
     m_Modifications:
+    - target: {fileID: 793870921, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: Name
+      value: 'Clay modeler - Jaime '
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[0]
+      value: "\u201CIf you wanna do something nice for me, you can go get me a drink.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[1]
+      value: "1. \u201CMaybe I will.\u201D\r\n2. \u201CBold of you to assume I\u2019m
+        nice.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[2]
+      value: "\u201COh actually?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[3]
+      value: "\u201CThat\u2019s what I thought.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[0]
+      value: "\u201CHelp me out and get me a sculpting tool, will ya?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[1]
+      value: "1. \u201CSure thing boss.\u201D\r\n2. \u201CI won\u2019t.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[2]
+      value: "\u201CThank you.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[3]
+      value: "\u201CDidn\u2019t think so.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[0]
+      value: "\u201CYou. Ten feet back. Now what do you want?\u201D\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[1]
+      value: "\u201CYou\u2019re really still holding that against me, huh?\u201D\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 120238222536112034, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 150638937561270347, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 274617971475087462, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 286097851741045216, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 882014957993504615, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011836507928166507, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725841393391504298, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964499606371656433, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194748626371786526, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2260604094712960813, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689567612151775031, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780737693822377068, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3004674726647254175, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138174222193901600, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253469426433521035, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335635213086256861, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741764073336048167, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100213798749990725, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369250067874219730, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680573170226151682, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937194208486817177, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038573928367421413, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105170003098103393, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629319498336209653, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7013312336136912982, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -398,6 +543,22 @@ PrefabInstance:
     - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_Name
       value: NPC 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441932449822047419, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659788086331502382, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987193020083451629, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccc828a768f60ff48902420d156457b9, type: 3}
@@ -2162,6 +2323,153 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601836593}
     m_Modifications:
+    - target: {fileID: 793870921, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: Name
+      value: 'Animator - Gregory '
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[0]
+      value: "\u201CShiiit, this tablet/tablet pen is dead. Mind grabbing me a new
+        one?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[1]
+      value: "1. \u201CSure thing.\u201D\r\n2. \u201CIt\u2019s too faaar.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[2]
+      value: "\u201CCool, thanks dude.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[3]
+      value: "\u201CUuuggghhh, making me get my fat ass up- how dare you?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[0]
+      value: "\u201CHey, HEROLD was supposed to have my model done for rigging today.
+        When you see them, can you see if they have the flashdrive ready for me?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[1]
+      value: "1. \u201CYeah, I\u2019ll ask.\u201D\r\n2. \u201CSorry, I have to head
+        out right after class.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[2]
+      value: "\u201CCool, thanks fam.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[3]
+      value: "\u201CNah, it\u2019s chill. I\u2019ll get it later then.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[0]
+      value: "\u201CFuck rigging, am I right?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[1]
+      value: "\u201CSure?\u201D\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 120238222536112034, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 150638937561270347, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 274617971475087462, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 286097851741045216, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 882014957993504615, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011836507928166507, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725841393391504298, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964499606371656433, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194748626371786526, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2260604094712960813, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689567612151775031, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780737693822377068, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3004674726647254175, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138174222193901600, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253469426433521035, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335635213086256861, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741764073336048167, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100213798749990725, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369250067874219730, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680573170226151682, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937194208486817177, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038573928367421413, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105170003098103393, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629319498336209653, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7013312336136912982, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2221,6 +2529,22 @@ PrefabInstance:
     - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_Name
       value: NPC 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441932449822047419, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659788086331502382, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987193020083451629, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccc828a768f60ff48902420d156457b9, type: 3}
@@ -3093,6 +3417,52 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &279972451 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 26770818}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &279972452 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 26770818}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279972451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &279972456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279972451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4fbc320ec3e2d4995b3c57ad249705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 279972452}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Chat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactIcon: {fileID: 0}
+  iconSize: {x: 0, y: 0}
+  ID: 0
 --- !u!1001 &282829898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3533,6 +3903,154 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601836593}
     m_Modifications:
+    - target: {fileID: 793870921, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: Name
+      value: 'Smash Bros Gamer - Cash '
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[0]
+      value: "\u201CHey! We have enough people for an all-out brawl, but we\u2019re
+        missing one of the controller cords. You haven\u2019t seen it, have you?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[1]
+      value: "1. \u201CActually, I think I have. I can go grab it.\u201D\r\n2. \u201CNo,
+        I haven\u2019t.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[2]
+      value: "\u201CGreat! Thanks man!\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[3]
+      value: "\u201CBummer. Sorry Geebs, you\u2019re gonna have to sit this round "
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[0]
+      value: "\u201CHey! Can you give this to RACHEL? It\u2019s for the Smash tournament.
+        You should sign up!\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[1]
+      value: "1. \u201CI\u2019ll give her the form, but I\u2019m not signing up.\u201D\r\n2.
+        \u201CI would if I could, but I can\u2019t so I won\u2019t.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[2]
+      value: "\u201CThanks, though I\u2019m slightly disappointed.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[3]
+      value: "\u201CThat\u2019s such an unnecessarily long way of saying \u2018no.\u2019\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[0]
+      value: "\u201CDude dude dude dude dude- They added Miku to Smash!!\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[1]
+      value: "\u201CDidn\u2019t someone make a mod before?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 120238222536112034, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 150638937561270347, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 274617971475087462, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 286097851741045216, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 882014957993504615, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011836507928166507, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725841393391504298, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964499606371656433, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194748626371786526, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2260604094712960813, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689567612151775031, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780737693822377068, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3004674726647254175, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138174222193901600, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253469426433521035, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335635213086256861, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741764073336048167, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100213798749990725, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369250067874219730, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680573170226151682, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937194208486817177, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038573928367421413, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105170003098103393, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629319498336209653, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7013312336136912982, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -3592,6 +4110,22 @@ PrefabInstance:
     - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_Name
       value: NPC 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441932449822047419, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659788086331502382, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987193020083451629, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccc828a768f60ff48902420d156457b9, type: 3}
@@ -3848,6 +4382,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3555363588338885260, guid: 5e7a1c9e11a3aaf46a0a54c7ec8958e1, type: 3}
   m_PrefabInstance: {fileID: 2139772340}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &356747305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 2065200819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &356747306 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 2065200819}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356747305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &356747310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356747305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4fbc320ec3e2d4995b3c57ad249705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 356747306}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Chat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactIcon: {fileID: 0}
+  iconSize: {x: 0, y: 0}
+  ID: 0
 --- !u!4 &359996890 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9031829398800050254, guid: d6cb6d85e9c6ec844bcf4f81b0513a3e, type: 3}
@@ -4112,6 +4692,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6cb6d85e9c6ec844bcf4f81b0513a3e, type: 3}
+--- !u!1 &451304517 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 335742606}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &451304518 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 335742606}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451304517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &451304522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451304517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4fbc320ec3e2d4995b3c57ad249705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 451304518}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Chat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactIcon: {fileID: 0}
+  iconSize: {x: 0, y: 0}
+  ID: 0
 --- !u!4 &453323238 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9031829398800050254, guid: d6cb6d85e9c6ec844bcf4f81b0513a3e, type: 3}
@@ -4256,6 +4882,155 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601836593}
     m_Modifications:
+    - target: {fileID: 793870921, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: Name
+      value: 'ASB - Rachel '
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[0]
+      value: "\u201CI\u2019m running late, and there are a few flyers still left
+        up. Help out a friend and take them down for me, would you?\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[1]
+      value: "1. \u201CWill do.\u201D\r\n2. \u201CYou know, I wish I could, buuut-\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[2]
+      value: "\u201CSweet! You\u2019re a lifesaver!\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[3]
+      value: "\u201CWell, hope no one gets excited for free cake.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[0]
+      value: "\u201CI\u2019m running late again- I really gotta manage my time better
+        -and I still got the new flyers to put up. Help me out again, would you?
+        You\u2019re a great friend.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[1]
+      value: "1. \u201CFine. If only to prove my greatness.\u201D\r\n2. \u201CButtering
+        me up, aye? Won\u2019t work this time.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[2]
+      value: "\u201CI owe you one; you\u2019re getting tickets to the next movie
+        night, guaranteed.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[3]
+      value: "\u201CI guess we could always push back the sign-up date.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[0]
+      value: "\u201CHi there! How\u2019ve things been going on campus for you lately?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[1]
+      value: "\u201CBeen going alright for the most part.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 120238222536112034, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 150638937561270347, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 274617971475087462, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 286097851741045216, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 882014957993504615, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011836507928166507, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725841393391504298, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964499606371656433, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194748626371786526, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2260604094712960813, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689567612151775031, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780737693822377068, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3004674726647254175, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138174222193901600, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253469426433521035, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335635213086256861, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741764073336048167, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100213798749990725, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369250067874219730, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680573170226151682, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937194208486817177, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038573928367421413, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105170003098103393, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629319498336209653, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7013312336136912982, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -4315,6 +5090,22 @@ PrefabInstance:
     - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_Name
       value: NPC 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441932449822047419, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659788086331502382, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987193020083451629, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccc828a768f60ff48902420d156457b9, type: 3}
@@ -4675,6 +5466,52 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &524946674 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 1314717409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &524946675 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 1314717409}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524946674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &524946679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524946674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4fbc320ec3e2d4995b3c57ad249705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 524946675}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Chat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactIcon: {fileID: 0}
+  iconSize: {x: 0, y: 0}
+  ID: 0
 --- !u!4 &525136802 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9031829398800050254, guid: d6cb6d85e9c6ec844bcf4f81b0513a3e, type: 3}
@@ -5342,7 +6179,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 601836593}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NPCs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6059,6 +6896,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3555363588338885260, guid: 5e7a1c9e11a3aaf46a0a54c7ec8958e1, type: 3}
   m_PrefabInstance: {fileID: 1020944466}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &768718092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 1597445362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &768718093 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 1597445362}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768718092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &768718097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768718092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4fbc320ec3e2d4995b3c57ad249705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 768718093}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Chat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactIcon: {fileID: 0}
+  iconSize: {x: 0, y: 0}
+  ID: 0
 --- !u!1 &768844486
 GameObject:
   m_ObjectHideFlags: 0
@@ -9726,6 +10609,151 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601836593}
     m_Modifications:
+    - target: {fileID: 793870921, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: Name
+      value: 'Audio person - Micha '
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[0]
+      value: "\u201CCheck out this mix I made!\u201D\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[1]
+      value: "1. \u201CSounds great.\u201D\r\n2. \u201CIt\u2019s god-awful.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[2]
+      value: "\u201CI know right? Thanks man.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[3]
+      value: "\u201CYou have no taste.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[0]
+      value: "\u201CHelp me test the mic: say something.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[1]
+      value: "1. \u201CP u s s y.\u201D\r\n2. \u201CREEEEEEEEE\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[2]
+      value: "\u201CCool, thanks man.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[3]
+      value: "\u201CScream like that again and I\u2019ll ban you from the booth.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[0]
+      value: "\u201CWHAT? Oh, sorry, someone left the headphones on 50. My ears are
+        still ringing\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[1]
+      value: "\u201CGee, I\u2019m surprised you\u2019re not deaf yet.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 120238222536112034, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 150638937561270347, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 274617971475087462, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 286097851741045216, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 882014957993504615, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011836507928166507, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725841393391504298, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964499606371656433, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194748626371786526, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2260604094712960813, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689567612151775031, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780737693822377068, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3004674726647254175, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138174222193901600, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253469426433521035, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335635213086256861, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741764073336048167, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100213798749990725, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369250067874219730, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680573170226151682, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937194208486817177, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038573928367421413, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105170003098103393, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629319498336209653, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7013312336136912982, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -9786,6 +10814,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441932449822047419, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659788086331502382, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987193020083451629, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccc828a768f60ff48902420d156457b9, type: 3}
 --- !u!4 &1300860931 stripped
@@ -9800,6 +10844,153 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601836593}
     m_Modifications:
+    - target: {fileID: 793870921, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: Name
+      value: '3D modeler - Herold '
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[0]
+      value: "\u201CI got a message that my print is done. I got class, so can you
+        do me a solid and pick it up for me?\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[1]
+      value: "1. \u201CYeah, no problem.\u201D\r\n2. \u201CI have class too.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[2]
+      value: "You\u2019re a lifesaver.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[3]
+      value: "\u201CRip.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[0]
+      value: "\u201CYo, JACKELINE texted me they got my character sheet done. Mind
+        running over there and grabbing it for me?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[1]
+      value: "1. \u201CYeah, no problem.\u201D\r\n2. \u201CCan\u2019t. Sorry dude.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[2]
+      value: "\u201CThanks dude.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[3]
+      value: "\u201CIt\u2019s no problem, don\u2019t sweat it.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[0]
+      value: "\u201CIt has. . . too many. . . polygons. . . huh, sorry?\u201D\r\n\u201CWhat
+        the hell is this topology? I'll fix it tomorrow.\"\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[1]
+      value: "\u201CYou always say that.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 120238222536112034, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 150638937561270347, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 274617971475087462, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 286097851741045216, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 882014957993504615, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011836507928166507, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725841393391504298, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964499606371656433, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194748626371786526, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2260604094712960813, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689567612151775031, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780737693822377068, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3004674726647254175, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138174222193901600, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253469426433521035, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335635213086256861, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741764073336048167, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100213798749990725, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369250067874219730, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680573170226151682, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937194208486817177, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038573928367421413, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105170003098103393, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629319498336209653, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7013312336136912982, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -9859,6 +11050,22 @@ PrefabInstance:
     - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_Name
       value: NPC 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441932449822047419, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659788086331502382, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987193020083451629, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccc828a768f60ff48902420d156457b9, type: 3}
@@ -10028,6 +11235,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9031829398800050254, guid: d6cb6d85e9c6ec844bcf4f81b0513a3e, type: 3}
   m_PrefabInstance: {fileID: 378645307}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1334103676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 2032785005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1334103677 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 2032785005}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334103676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1334103681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334103676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4fbc320ec3e2d4995b3c57ad249705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1334103677}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Chat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactIcon: {fileID: 0}
+  iconSize: {x: 0, y: 0}
+  ID: 0
 --- !u!1001 &1337899311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11174,6 +12427,155 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601836593}
     m_Modifications:
+    - target: {fileID: 793870921, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: Name
+      value: 'Gentle art student - Mika '
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[0]
+      value: "\u201CShoot! I forgot my kneaded eraser back at the dorms. I need it
+        for today\u2019s class. Can you run to the shop in the Den and buy me a new
+        one? I can pay you back later!\u201D\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[1]
+      value: "1.\u201CSure, don\u2019t worry about it.\u201D\r\n\n2.\u201CSorry,
+        I can\u2019t.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[2]
+      value: "\u201CYou're the best, seriously!\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[3]
+      value: "\u201CThat\u2019s alright, I\u2019ll manage ^^\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[0]
+      value: "\u201COh hey! Can you run this to JAIME? I meant to give this to them
+        during class.\u201D\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[1]
+      value: "1. \u201CSure, don\u2019t worry about it.\u201D\r\n\n2. \u201CSorry,
+        I can\u2019t.\u201D\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[2]
+      value: "\u201CGreat! Thank you SO much!\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[3]
+      value: "\u201COh, if you\u2019re busy, don\u2019t worry about it.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[0]
+      value: "\u201CHello! ^^ How are you?\u201D\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[1]
+      value: "\u201CI\u2019m doing good. What about you?\u201D\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 120238222536112034, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 150638937561270347, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 274617971475087462, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 286097851741045216, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 882014957993504615, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011836507928166507, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725841393391504298, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964499606371656433, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194748626371786526, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2260604094712960813, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689567612151775031, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780737693822377068, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3004674726647254175, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138174222193901600, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253469426433521035, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335635213086256861, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741764073336048167, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100213798749990725, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369250067874219730, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680573170226151682, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937194208486817177, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038573928367421413, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105170003098103393, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629319498336209653, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7013312336136912982, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -11233,6 +12635,22 @@ PrefabInstance:
     - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_Name
       value: NPC 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441932449822047419, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659788086331502382, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987193020083451629, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccc828a768f60ff48902420d156457b9, type: 3}
@@ -11626,6 +13044,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9031829398800050254, guid: d6cb6d85e9c6ec844bcf4f81b0513a3e, type: 3}
   m_PrefabInstance: {fileID: 2023688076}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1485512015 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 199041822}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1485512016 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 199041822}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485512015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1485512020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485512015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4fbc320ec3e2d4995b3c57ad249705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1485512016}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Chat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactIcon: {fileID: 0}
+  iconSize: {x: 0, y: 0}
+  ID: 0
 --- !u!4 &1499203863 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9031829398800050254, guid: d6cb6d85e9c6ec844bcf4f81b0513a3e, type: 3}
@@ -12033,6 +13497,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3555363588338885260, guid: 5e7a1c9e11a3aaf46a0a54c7ec8958e1, type: 3}
   m_PrefabInstance: {fileID: 1549225206}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1551691783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 1426053520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1551691784 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 1426053520}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551691783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1551691788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551691783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4fbc320ec3e2d4995b3c57ad249705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1551691784}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Chat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactIcon: {fileID: 0}
+  iconSize: {x: 0, y: 0}
+  ID: 0
 --- !u!1 &1557851496
 GameObject:
   m_ObjectHideFlags: 0
@@ -12669,6 +14179,151 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601836593}
     m_Modifications:
+    - target: {fileID: 793870921, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: Name
+      value: 'Design student - Jackeline '
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[0]
+      value: "\u201CWhat do you think about this design?\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[1]
+      value: "1.\u201CLooks great!\u201D\n2.\u201CLooks like shit.\u201D\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[2]
+      value: "\u201COh? Really? Gee, thanks.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[3]
+      value: "\u201CFuck you, and your mom.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[0]
+      value: "\u201CDo you like the green outfit better?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[1]
+      value: "1. \u201CI like this one.\u201D\r\n2. \"No, I like the other one.\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[2]
+      value: "\u201CThat one? Alright.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[3]
+      value: "\u201CYou want to make my life pain, don\u2019t you?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[0]
+      value: "\u201CThe knowledge of color theory is both a blessing and a curse.
+        But anyways, how\u2019s your day going?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[1]
+      value: "\u201CApparently better than yours.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 120238222536112034, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 150638937561270347, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 274617971475087462, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 286097851741045216, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 882014957993504615, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011836507928166507, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725841393391504298, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964499606371656433, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194748626371786526, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2260604094712960813, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689567612151775031, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780737693822377068, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3004674726647254175, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138174222193901600, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253469426433521035, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335635213086256861, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741764073336048167, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100213798749990725, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369250067874219730, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680573170226151682, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937194208486817177, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038573928367421413, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105170003098103393, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629319498336209653, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7013312336136912982, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -12728,6 +14383,22 @@ PrefabInstance:
     - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_Name
       value: NPC 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441932449822047419, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659788086331502382, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987193020083451629, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccc828a768f60ff48902420d156457b9, type: 3}
@@ -13241,6 +14912,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6cb6d85e9c6ec844bcf4f81b0513a3e, type: 3}
+--- !u!1 &1657977441 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 1300860930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1657977442 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 1300860930}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657977441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1657977446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657977441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4fbc320ec3e2d4995b3c57ad249705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1657977442}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Chat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactIcon: {fileID: 0}
+  iconSize: {x: 0, y: 0}
+  ID: 0
 --- !u!1 &1665279100
 GameObject:
   m_ObjectHideFlags: 0
@@ -13797,6 +15514,162 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601836593}
     m_Modifications:
+    - target: {fileID: 793870921, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: Name
+      value: 'Al '
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[0]
+      value: "Oh, hey! Mind grabbing me a drink while you\u2019re there? I have to
+        go on rounds right now.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[1]
+      value: '1. "Sure."
+
+        2. "No."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[2]
+      value: "\"Thanks man. I appreciate it.\u201D\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[3]
+      value: '"Ok."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[0]
+      value: na
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[1]
+      value: na
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[2]
+      value: na
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[3]
+      value: na
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[0]
+      value: "\u201CHey there, how's it going? It\u2019s good to see you. Heading
+        to the Den to grab some free food?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[1]
+      value: '"Yea."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[2]
+      value: '"Alright, I will see you later."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 120238222536112034, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 150638937561270347, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 274617971475087462, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 286097851741045216, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 882014957993504615, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011836507928166507, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725841393391504298, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964499606371656433, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194748626371786526, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2260604094712960813, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689567612151775031, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780737693822377068, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3004674726647254175, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138174222193901600, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253469426433521035, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335635213086256861, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741764073336048167, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100213798749990725, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369250067874219730, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680573170226151682, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937194208486817177, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038573928367421413, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105170003098103393, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629319498336209653, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7013312336136912982, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -13844,6 +15717,22 @@ PrefabInstance:
     - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_Name
       value: NPC Al
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441932449822047419, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659788086331502382, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987193020083451629, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccc828a768f60ff48902420d156457b9, type: 3}
@@ -14321,6 +16210,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6cb6d85e9c6ec844bcf4f81b0513a3e, type: 3}
+--- !u!1 &1826437161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 463393520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1826437162 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 463393520}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826437161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1826437166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826437161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4fbc320ec3e2d4995b3c57ad249705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1826437162}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Chat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactIcon: {fileID: 0}
+  iconSize: {x: 0, y: 0}
+  ID: 0
 --- !u!4 &1838078819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7773771357241005011, guid: 654e64fc31b8fe24eb6742ae854338d3, type: 3}
@@ -15421,6 +17356,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6cb6d85e9c6ec844bcf4f81b0513a3e, type: 3}
+--- !u!1 &2025286660 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 1751593971}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2025286661 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+  m_PrefabInstance: {fileID: 1751593971}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025286660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9363e25e2d7ee14b945496978f2bb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2025286665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025286660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4fbc320ec3e2d4995b3c57ad249705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2025286661}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: Chat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactIcon: {fileID: 0}
+  iconSize: {x: 0, y: 0}
+  ID: 0
 --- !u!1001 &2031141463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15485,6 +17466,151 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601836593}
     m_Modifications:
+    - target: {fileID: 793870921, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: Name
+      value: 'Esports guy - Brian '
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[0]
+      value: "\u201CYou wanna help us convince coach to finally make a rocket league
+        team?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[1]
+      value: "1. \u201CYe\u201D\n2. \u201CNah.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[2]
+      value: "\u201CPog.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[3]
+      value: "\u201CDamn, can we get an F in the chat?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[0]
+      value: "\u201CBro, go ask CASH if he wants to sub for us on Saturday.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[1]
+      value: "1. \u201CBet.\u201D\r\n2.\u201CWait, y\u2019all actually do tournaments?\u201D\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[2]
+      value: "\u201CYesss.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[3]
+      value: "\u201CI\u2019ll have to do it later then I guess.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[0]
+      value: "\u201CWassup.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[1]
+      value: "\u201CWassup dog?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 120238222536112034, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 150638937561270347, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 274617971475087462, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 286097851741045216, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 882014957993504615, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011836507928166507, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725841393391504298, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964499606371656433, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194748626371786526, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2260604094712960813, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689567612151775031, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780737693822377068, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3004674726647254175, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138174222193901600, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253469426433521035, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335635213086256861, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741764073336048167, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100213798749990725, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369250067874219730, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680573170226151682, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937194208486817177, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038573928367421413, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105170003098103393, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629319498336209653, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7013312336136912982, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -15544,6 +17670,22 @@ PrefabInstance:
     - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_Name
       value: NPC 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441932449822047419, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659788086331502382, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987193020083451629, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccc828a768f60ff48902420d156457b9, type: 3}
@@ -15718,6 +17860,156 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601836593}
     m_Modifications:
+    - target: {fileID: 793870921, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: Name
+      value: 'Chess kid - Kent '
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[0]
+      value: "\u201CWhoever played last didn\u2019t set it up again. Can- Can you
+        set up Black?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[1]
+      value: "1. \u201CSure.\u201D\r\n2. \u201CSorry, I don\u2019t remember where
+        each piece goes.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[2]
+      value: "\u201CGreat! Thank you so much. Really, I appreciate it.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questASentences.Array.data[3]
+      value: "\u201COh. Th- that\u2019s ok. I can do it.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[0]
+      value: "\u201CAw gee, we\u2019re missing the White Queen. I don\u2019t know
+        where it is.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[1]
+      value: "1. I can look for it.\u201D\r\n2. \u201CI\u2019m not sure if I have
+        time to look for it.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[2]
+      value: "\u201CI\u2019ll- I\u2019ll help look with you.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: questBSentences.Array.data[3]
+      value: "\u201CIt\u2019s- It\u2019s fine if you\u2019re busy. I can find it
+        myself.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[0]
+      value: "\u201CH-hey there! So- um- Do you have time to- to play a game of chess
+        with me?\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 58846261131219840, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: greetingSentences.Array.data[1]
+      value: "\u201CYeah, I have some time.\u201D\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 120238222536112034, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 150638937561270347, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 274617971475087462, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 286097851741045216, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 882014957993504615, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011836507928166507, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725841393391504298, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964499606371656433, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194748626371786526, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2260604094712960813, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689567612151775031, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780737693822377068, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3004674726647254175, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138174222193901600, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253469426433521035, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335635213086256861, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741764073336048167, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100213798749990725, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369250067874219730, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680573170226151682, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5937194208486817177, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038573928367421413, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105170003098103393, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629319498336209653, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7013312336136912982, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -15777,6 +18069,22 @@ PrefabInstance:
     - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
       propertyPath: m_Name
       value: NPC 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013312336136912988, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441932449822047419, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659788086331502382, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987193020083451629, guid: ccc828a768f60ff48902420d156457b9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccc828a768f60ff48902420d156457b9, type: 3}
