@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
 
     public float movementSpeed = 7f;
 
-    private Vector3 currentInputVector;
+    private Vector3 dynamicInputVector;
     private Vector3 smoothInputVelocity;
     [SerializeField]
     private float smoothInputSpeed = .05f;
@@ -48,13 +48,13 @@ public class PlayerController : MonoBehaviour
         Vector3 playerForward = transform.forward;
         Vector3 playerRight = transform.right;
 
-        Vector3 targetInput = playerForward * forwardMovement + playerRight * rightMovement;
+        Vector3 targetMoveDir = playerForward * forwardMovement + playerRight * rightMovement;
 
-        currentInputVector = Vector3.SmoothDamp(currentInputVector, targetInput, ref smoothInputVelocity, smoothInputSpeed);
+        dynamicInputVector = Vector3.SmoothDamp(dynamicInputVector, targetMoveDir, ref smoothInputVelocity, smoothInputSpeed);
 
-        Vector3 moveDir = new Vector3(currentInputVector.x, 0, currentInputVector.z);
+        Vector3 dynamicMoveDir = new Vector3(dynamicInputVector.x, 0, dynamicInputVector.z);
 
-        characterController.Move(movementSpeed * Time.deltaTime * moveDir);
+        characterController.Move(movementSpeed * Time.deltaTime * dynamicMoveDir);
 
         /*
         // Jump code
