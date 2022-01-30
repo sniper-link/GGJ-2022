@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    const float CAM_MAX = 50f;
-    const float CAM_MIN = -50f;
+    const float CAM_MAX = 80f;
+    const float CAM_MIN = -80f;
 
     public Transform playerRef;    
 

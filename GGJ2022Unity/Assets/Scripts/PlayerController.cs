@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        smoothInputSpeed = movementSpeed / 140;
+        smoothInputSpeed = movementSpeed / 100;
     }
 
     private void Update()
