@@ -31,6 +31,8 @@ public class CameraController : MonoBehaviour
     {
         currentXRotation = 0;
         currentYRotation = 0;
+        //Screen.fullScreen = false;
+        Screen.fullScreenMode = FullScreenMode.Windowed;
     }
 
     // Update is called once per frame
